@@ -1,7 +1,11 @@
 body{
-    color: white;
-    background-color: black;
+    color: rgb(0, 0, 0);
+   
     font-family: Arial, Helvetica, sans-serif;
+    background: #8E2DE2; 
+    background: -webkit-linear-gradient(to right, #4A00E0, #8E2DE2);  
+    background: linear-gradient(to right, #4A00E0, #8E2DE2);
+
 }
 ul{
     display: flex;
@@ -9,18 +13,69 @@ ul{
     list-style-type: none;
     padding: 16px;
 }
-.form {
-    max-width: 600px;
-    margin: 50px auto;
-    padding: 10px 20px;
-    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 10px;
-}
+       /* Estilos para a seção de contato */
+       #contato {
+        padding: 2rem;
+    }
 
+    form {
+        max-width: 400px;
+        margin: 0 auto;
+    }
+
+    label {
+        display: block;
+        margin-bottom: 0.5rem;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    textarea {
+        width: 100%;
+        padding: 0.5rem;
+        margin-bottom: 1rem;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+    }
+
+    textarea {
+        resize: vertical;
+    }
+
+    #projetos {
+        padding: 2rem;
+    }
+
+    .projeto {
+        background-color: #8E2DE2;
+        border: 1px solid #ddd;
+        padding: 1rem;
+        margin-bottom: 1rem;
+        border-radius: 5px;
+    }
+
+    .projeto h3 {
+        font-size: 1.2rem;
+        margin-bottom: 0.5rem;
+    }
+
+    .projeto p {
+        font-size: 1rem;
+        line-height: 1.5;
+    }
+
+
+    button {
+        background-color: #333;
+        color: #fff;
+        border: none;
+        padding: 0.5rem 1rem;
+        border-radius: 5px;
+        cursor: pointer;
+        justify-content: center;
+    }
 a{
-    color: white;
+    color: black;
     text-decoration: none;
 
 }
@@ -53,5 +108,5 @@ footer p{
     padding: 0px 50px;
 }
 nav a:hover{
-    color: purple;
+    color: rgb(255, 255, 255);
 }

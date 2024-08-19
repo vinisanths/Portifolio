@@ -23,27 +23,33 @@
         </nav>
 
     </div>
-    <div class="form">
-        <h1>Entre em Contato</h1>
-        <form action="processa_formulario.php" method="post">
+    <section id="contato">
+        <h2>Entre em contato e faça um orçamento</h2>
+        <form method="post">
             <label for="nome">Nome:</label>
             <input type="text" id="nome" name="nome" required>
-
-
             <label for="email">E-mail:</label>
             <input type="email" id="email" name="email" required>
-
-            <label for="assunto">Assunto:</label>
-            <input type="text" id="assunto" name="assunto">
-
-            <label
-            for="mensagem">Mensagem:</label>
-            <textarea id="mensagem" name="mensagem" required></textarea>
-
+            <label for="mensagem">Mensagem:</label>
+            <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
             <button type="submit">Enviar</button>
-
         </form>
-    </div>
+    </section>
+
+    <footer>
+        <a href="https://www.instagram.com/vinisanths/" target="_blank" rel="noopener noreferrer">
+            <img src="./imagens/instagram.svg">
+            <p>Instagram</p>
+        </a>
+        <a href="https://www.linkedin.com/in/vinicius-sanths-tecinformatica/" target="_blank" rel="noopener noreferrer">
+            <img src="./imagens/linkedin.svg">
+            <p>Linkedin</p>
+        </a>
+        <a href="https://github.com/vinisanths" target="_blank" rel="noopener noreferrer">
+            <img src="./imagens/github.svg">
+            <p>Github</p>
+        </a>
+    </footer>
 
 </body>
 </html>
