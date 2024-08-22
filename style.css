@@ -7,6 +7,12 @@ body{
     background: linear-gradient(to right, #4A00E0, #8E2DE2);
 
 }
+.curriculo{
+    padding-top: 10px;
+    border: 2px;
+    border-color: #ddd;
+
+}
 ul{
     display: flex;
     justify-content: space-between;
