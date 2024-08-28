@@ -2,10 +2,10 @@ body{
     color: rgb(0, 0, 0);
    
     font-family: Arial, Helvetica, sans-serif;
-    background: #8E2DE2; 
-    background: -webkit-linear-gradient(to right, #4A00E0, #8E2DE2);  
-    background: linear-gradient(to right, #4A00E0, #8E2DE2);
-
+    background-color: rgb(129, 137, 143);
+}
+h1{
+    text-align: center;
 }
 .curriculo{
     padding-top: 10px;
@@ -52,8 +52,8 @@ ul{
     }
 
     .projeto {
-        background-color: #8E2DE2;
-        border: 1px solid #ddd;
+        background-color: #b3adb6;
+        border: 1px solid #000000;
         padding: 1rem;
         margin-bottom: 1rem;
         border-radius: 5px;
@@ -88,7 +88,7 @@ header img{
     width: 150px;
     height: 150px;
     border-radius: 50%;
-    border: 5px solid purple
+    border: 5px solid rgb(91, 172, 145)
 }
 .centro{
     text-align: center;
@@ -113,5 +113,5 @@ footer p{
     padding: 0px 50px;
 }
 nav a:hover{
-    color: rgb(255, 255, 255);
+    color: rgb(1, 1, 1);
 }
