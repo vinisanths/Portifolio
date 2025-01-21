@@ -1,117 +1,114 @@
-body{
-    color: rgb(0, 0, 0);
+body {
+  color: rgb(0, 0, 0);
 
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: rgb(129, 137, 143);
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #d8f8fd;
 }
-h1{
-    text-align: center;
+h1 {
+  text-align: center;
 }
-.curriculo{
-    padding-top: 10px;
-    border: 2px;
-    border-color: #ddd;
-
+.curriculo {
+  padding-top: 10px;
+  border: 2px;
+  border-color: #ddd;
 }
-ul{
-    display: flex;
-    justify-content: space-between;
-    list-style-type: none;
-    padding: 16px;
+ul {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  padding: 16px;
 }
-       #contato {
-        padding: 2rem;
-    }
-
-    form {
-        max-width: 400px;
-        margin: 0 auto;
-    }
-
-    label {
-        display: block;
-        margin-bottom: 0.5rem;
-    }
-
-    input[type="text"],
-    input[type="email"],
-    textarea {
-        width: 100%;
-        padding: 0.5rem;
-        margin-bottom: 1rem;
-        border: 1px solid #ddd;
-        border-radius: 5px;
-    }
-
-    textarea {
-        resize: vertical;
-    }
-
-    #projetos {
-        padding: 2rem;
-    }
-
-    .projeto {
-        background-color: #b3adb6;
-        border: 1px solid #000000;
-        padding: 1rem;
-        margin-bottom: 1rem;
-        border-radius: 5px;
-    }
-
-    .projeto h3 {
-        font-size: 1.2rem;
-        margin-bottom: 0.5rem;
-    }
-
-    .projeto p {
-        font-size: 1rem;
-        line-height: 1.5;
-    }
-
-
-    button {
-        background-color: #333;
-        color: #fff;
-        border: none;
-        padding: 0.5rem 1rem;
-        border-radius: 5px;
-        cursor: pointer;
-        justify-content: center;
-    }
-a{
-    color: black;
-    text-decoration: none;
-
-}
-header img{
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-    border: 5px solid rgb(91, 172, 145)
-}
-.centro{
-    text-align: center;
-}
-footer img{
-    width: 30px;
-    height: 30px;
-}
-footer{
-    display: flex;
-    justify-content:center ;
-}
-footer a{
-    margin: 20px;
-    text-align: center;
+#contato {
+  padding: 2rem;
 }
 
-footer p{
-    margin-top: 2px;
+form {
+  max-width: 400px;
+  margin: 0 auto;
 }
-.container{
-    padding: 0px 50px;
+
+label {
+  display: block;
+  margin-bottom: 0.5rem;
 }
-nav a:hover{
-    color: rgb(1, 1, 1);
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+textarea {
+  resize: vertical;
+}
+
+#projetos {
+  padding: 2rem;
+}
+
+.projeto {
+  background-color: #b3adb6;
+  border: 1px solid #000000;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 5px;
+}
+
+.projeto h3 {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+
+.projeto p {
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+button {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  justify-content: center;
+}
+a {
+  color: black;
+  text-decoration: none;
+}
+header img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 5px solid #88e3f7;
+}
+.centro {
+  text-align: center;
+}
+footer img {
+  width: 30px;
+  height: 30px;
+}
+footer {
+  display: flex;
+  justify-content: center;
+}
+footer a {
+  margin: 20px;
+  text-align: center;
+}
+
+footer p {
+  margin-top: 2px;
+}
+.container {
+  padding: 0px 50px;
+}
+nav a:hover {
+  color: rgb(1, 1, 1);
 }
